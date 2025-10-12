@@ -1,0 +1,26 @@
+# --- Python build & cache files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+.env/
+venv/
+.venv/
+
+# --- Data files (large or personal) ---
+data/*.fit
+data/*.gpx
+data/training_log.csv
+
+# --- Jupyter notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE/project settings ---
+.vscode/
+.idea/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
